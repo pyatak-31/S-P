@@ -49,7 +49,7 @@ class Hamburger {
 		setTimeout(function() { linksList.classList.add("active"); }, 100);
 		for (let i of linksItem) {
 			i.addEventListener('click', () => {
-				this.closeMenu(hamburgerIcon, linksList, inactive);
+				this.closeMenu(logo, hamburgerIcon, linksList, inactive);
 			})
 		}
 	}
